@@ -1,0 +1,44 @@
+{
+    "languages": [
+        "中文",
+        "English"
+    ],
+    "current_language": "English",
+    "logo_path": "assets/logo.png",
+    "中文": {
+        "window_title": "3D 姿态监控系统",
+        "plot_title": "三维避雷针姿态监控 - 专业版 v1.1",
+        "btn_reset_text": "恢复物理真实坐标",
+        "btn_cal_text": "当前位置重新置零",
+        "log_conn_succ": "成功连接至物理端口: {port}",
+        "log_conn_fail": "串口连接失败，自动转为纯模拟模式",
+        "log_logo_fail": "警告: 无法加载企业 Logo 图片",
+        "log_reset": ">>> 操作成功: 已恢复物理绝对重力坐标",
+        "log_cal": ">>> 操作成功: 当前姿态已强行设为 0° 基准面",
+        "log_sim_mode": ">>> 已切换至纯模拟数据模式",
+        "log_reconn": ">>> 已尝试重新连接至: {port}",
+        "log_sim_auto": ">>> 触发模拟操作，已自动切为模拟模式",
+        "log_sim_apply": ">>> 模拟下发: Pitch={y} Roll={x} Acc={g} Temp={t}",
+        "log_sim_err": ">>> [错误] 输入格式无效，请填写合法数字！",
+        "log_key_sim": ">>> [快捷键] 自动应用模拟数据 (Apply Sim)",
+        "log_key_cal": ">>> [快捷键] 自动执行置零校准 (Set Zero)"
+    },
+    "English": {
+        "window_title": "3D Attitude Monitoring System",
+        "plot_title": "3D Lightning Rod Monitor - Pro v1.1",
+        "btn_reset_text": "Reset Original",
+        "btn_cal_text": "Recalibrate (Set Zero)",
+        "log_conn_succ": "Successfully connected to port: {port}",
+        "log_conn_fail": "Serial connection failed, auto-switched to Simulation mode",
+        "log_logo_fail": "Warning: Failed to load enterprise Logo image",
+        "log_reset": ">>> Success: Restored absolute physical gravity coordinates",
+        "log_cal": ">>> Success: Current attitude forcibly set as 0° reference plane",
+        "log_sim_mode": ">>> Switched to pure simulation data mode",
+        "log_reconn": ">>> Attempted to reconnect to: {port}",
+        "log_sim_auto": ">>> Simulation triggered, auto-switched to Simulation mode",
+        "log_sim_apply": ">>> Sim Applied: Pitch={y} Roll={x} Acc={g} Temp={t}",
+        "log_sim_err": ">>> [Error] Invalid format, please enter valid numbers!",
+        "log_key_sim": ">>> [Shortcut] Auto-applied simulation data (Apply Sim)",
+        "log_key_cal": ">>> [Shortcut] Auto-executed zero calibration (Set Zero)"
+    }
+}
